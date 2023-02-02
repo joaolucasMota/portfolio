@@ -42,7 +42,7 @@ export default function SobreMim(){
                     <Coluna2>
                         <span>🧐 Sobre mim</span>
                         <h1>João Lucas Mota</h1>
-                        <p>Mas pode me chamar de João. Estudando Análise e Desenvolviemnto de Sistemas a um ano, estou atualmente no terceiro semestre. Durante esse ériodo venho estudando também tecnologias Front-end, fazendo cursos na udemy, curso em vídeo e imersões da Alura e Rocketdeat. Hoje procuro uma oportunidade para engressar no mercado de trabalho. </p>
+                        <p>Mas pode me chamar de João. Desenvolvo interfaces e estudo tecnologias Front-end a pouco mais de um ano, tenho conhecimento em criação de landing page, blog, site institucional, pequenos sistemas para cadastro de pessoas ou empresas com autenticação de login e senha integrando com o Firebase. Venha me apresentar o seu projeto ou ideia para que possamos conversar.</p>
                         <br />
                         <p>💭 "Se você pode sonhar, você pode fazer"</p>
                     </Coluna2>

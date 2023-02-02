@@ -25,17 +25,17 @@ export default function Skills(){
                     <h2>Tecnologias e Habilidades</h2>)
                     }
                     <div>
-                        <FaReact size= {width > 767 ? 70 : 35}/>
-                        <FaHtml5 size={width > 767 ? 70 : 35}/>
-                        <FaCss3 size={width > 767 ? 70 : 35}/>
-                        <FaBootstrap size={width > 767 ? 70 : 35}/>
-                        <FaFigma size={width > 767 ? 70 : 35}/>
+                        <FaReact size= {width > 767 ? 110 : 50}/>
+                        <FaHtml5 size={width > 767 ? 110 : 50}/>
+                        <FaCss3 size={width > 767 ? 110 : 50}/>
+                        <FaBootstrap size={width > 767 ? 110 : 50}/>
+                        <FaFigma size={width > 767 ? 110 : 50}/>
                         <div>
-                            <FaJs size={width > 767 ? 70 : 35}/>
-                            <SiFirebase size={width > 767 ? 70 : 35}/>
-                            <SiStyledcomponents size={width > 767 ? 70 : 35}/>
-                            <FaGithub size={width > 767 ? 70 : 35}/>
-                            <SiVite size={width > 767 ? 70 : 35}/>
+                            <FaJs size={width > 767 ? 110 : 50}/>
+                            <SiFirebase size={width > 767 ? 110 : 50}/>
+                            <SiStyledcomponents size={width > 767 ? 110 : 50}/>
+                            <FaGithub size={width > 767 ? 110 : 50}/>
+                            <SiVite size={width > 767 ? 110 : 50}/>
                         </div>
                     </div>
                 </Coluna>
