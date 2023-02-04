@@ -1,20 +1,13 @@
 import { Container, Linha, Coluna1, Coluna2, Coluna3, MobileCol } from "./styles";
 import {FaGithub, FaLinkedin, FaStackOverflow, FaDownload, FaWhatsapp} from "react-icons/fa";
 import Cv from "../../assets/CV.pdf";
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
+import { AuthContext } from "../../contexts/width";
 
 
 export default function Home(){
 
-    const [width, setWidth] = useState(window.innerWidth);
-
-    useEffect(() => {
-        const handleResize = () => setWidth(window.innerWidth);
-        window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-    }, []);
+    const {width} = useContext(AuthContext);
 
     return(
         <Container id="section9">

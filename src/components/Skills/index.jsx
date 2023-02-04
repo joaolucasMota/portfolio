@@ -1,19 +1,12 @@
 import {Container, Linha, Coluna} from "./styles";
 import { FaReact, FaHtml5, FaCss3, FaBootstrap, FaJs, FaGithub, FaFigma } from "react-icons/fa";
 import {SiFirebase, SiStyledcomponents, SiVite} from "react-icons/si"
-import { useState, useEffect } from "react";
+import { useContext } from "react";
+import { AuthContext } from "../../contexts/width";
 
 export default function Skills(){
 
-    const [width, setWidth] = useState(window.innerWidth);
-
-    useEffect(() => {
-        const handleResize = () => setWidth(window.innerWidth);
-        window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-    }, []);
+    const {width} = useContext(AuthContext);
 
     return(
         <Container id="section4">

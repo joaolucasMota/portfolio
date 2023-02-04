@@ -1,19 +1,12 @@
 import { Linha, Container, Coluna1, Coluna2 } from "./styles";
 import Eu from "../../assets/minhafoto.jpg"
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
+import { AuthContext } from "../../contexts/width";
 
 
 export default function SobreMim(){
 
-    const [width, setWidth] = useState(window.innerWidth);
-
-    useEffect(() => {
-        const handleResize = () => setWidth(window.innerWidth);
-        window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-    }, []);
+    const {width} = useContext(AuthContext);
 
     return(
         <Container id="section2">
