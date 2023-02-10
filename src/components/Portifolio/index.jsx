@@ -58,6 +58,30 @@ export default function Portifolio(){
                     <img src="https://user-images.githubusercontent.com/86432480/207411231-f642f800-0ad0-4864-8f1f-6ae9b423cf7e.gif" alt="imagem do projeto" />
                     </a>
                 </Coluna1>
+
+                <Coluna1>
+                    <h3>Chat GPT API</h3>
+                    <p>Consumi uma API do Chat GPT e fiz uma interface de conversa no whatsapp.</p>
+                    <div>
+                        <Span1>React</Span1>
+                        <Span1>TypeScript</Span1>
+                    </div>
+                    <a href="https://github.com/joaolucasMota/chat-GPT">
+                    <img src="https://i.imgur.com/TWjTin4.gif" alt="imagem do projeto" />
+                    </a>
+                </Coluna1>
+
+                <Coluna1>
+                    <h3>Stone Book</h3>
+                    <p>Aplicação onde a pessoa pode criar uma conta e deixar uma mensagem gravada.</p>
+                    <div>
+                        <Span1>React</Span1>
+                        <Span1>Firebase</Span1>
+                    </div>
+                    <a href="https://github.com/joaolucasMota/stone-book">
+                    <img src="https://i.imgur.com/gesUoeo.gif" alt="imagem do projeto" />
+                    </a>
+                </Coluna1>
             </Linha2>
         </Container>
     )
