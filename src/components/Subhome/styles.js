@@ -14,12 +14,16 @@ export const Linha = styled.div`
     justify-content: center;
     width: 1000px;
     padding: 5em;
+    @media (max-width: 767px) {
+        width: 100%;
+        padding: 2em;
+    }
 `;
 
 export const Coluna = styled.div`
     background-color: #201a3f ;
     padding: 4em;
-    width: 1000px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -27,7 +31,9 @@ export const Coluna = styled.div`
     border-radius: 10px;
     margin: 0 4em;
     @media (max-width: 767px) {
-        width: 400px;
+        width: 100%;
+        padding: 2em;
+        margin: 0 1em;
     }
 `;
 
@@ -44,6 +50,6 @@ export const Conteudo = styled.h1`
     font-size: 4em;
     font-weight: bold;
     @media (max-width: 767px) {
-        font-size: 3em;
+        font-size: 1.8em;
     }
 `;
