@@ -23,7 +23,7 @@ export default function Portifolio(){
                 </Coluna1>
                     
                 <Coluna2>
-                    <h3>Gerenciado de chamados</h3>
+                    <h3>Gerenciador de chamados</h3>
                     <p>Aplicação desenvolvida com React para gerenciar chamados de clientes, protegido por login e senha.</p>
                     <div>
                         <Span0>Online</Span0>
@@ -80,6 +80,57 @@ export default function Portifolio(){
                     </div>
                     <a href="https://github.com/joaolucasMota/stone-book">
                     <img src="https://i.imgur.com/gesUoeo.gif" alt="imagem do projeto" />
+                    </a>
+                </Coluna1>
+
+                <Coluna1>
+                    <h3>Site Nutrição</h3>
+                    <p>Site desenvolvido como trabalho de freelancer</p>
+                    <div>
+                        <Span0>Online</Span0>
+                        <Span1>React</Span1>
+                        <Span1>TS</Span1>
+                    </div>
+                    <a href="https://nutri-emily-cadete.netlify.app/">
+                    <img src="https://i.imgur.com/BgCgwop.png" alt="imagem do projeto" />
+                    </a>
+                </Coluna1>
+
+                <Coluna1>
+                    <h3>LP Nutrição</h3>
+                    <p>Landing Page desenvolvida como trabalho da matéria de Web Standards da faculdade.</p>
+                    <div>
+                        <Span0>Online</Span0>
+                        <Span1>SCSS</Span1>
+                        <Span1>HTML</Span1>
+                    </div>
+                    <a href="https://nutricionista-emilyc.netlify.app/">
+                    <img src="https://i.imgur.com/dtpBTSc.png" alt="imagem do projeto" />
+                    </a>
+                </Coluna1>
+
+                <Coluna1>
+                    <h3>Site Marcenaria</h3>
+                    <p>Site de uma marcenaria feito para um amigo.</p>
+                    <div>
+                        <Span0>Online</Span0>
+                        <Span1>SCSS</Span1>
+                        <Span1>HTML</Span1>
+                    </div>
+                    <a href="https://mognus.netlify.app/">
+                    <img src="https://i.imgur.com/pOh29jM.png" alt="imagem do projeto" />
+                    </a>
+                </Coluna1>
+
+                <Coluna1>
+                    <h3>Minhas Finanças</h3>
+                    <p>Projeto desenvolvido em ANgular para controle de finanças.</p>
+                    <div>
+                        <Span1>Angular</Span1>
+                        <Span1>Material UI</Span1>
+                    </div>
+                    <a href="https://mognus.netlify.app/">
+                    <img src="https://i.imgur.com/RyZOCUh.png" alt="imagem do projeto" />
                     </a>
                 </Coluna1>
             </Linha2>

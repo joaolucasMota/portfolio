@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import SobreMim from "./components/Sobre";
 import Portifolio from "./components/Portifolio";
 import Skills from "./components/Skills";
-import Conato from "./components/Contato";
+import Contato from "./components/Contato";
 import Footer from "./components/Footer";
 import AuthProvider from "./contexts/width";
 import Subhome from "./components/Subhome";
@@ -24,7 +24,7 @@ function App() {
         <SobreMim/>
         <Portifolio/>
         <Skills/>
-        <Conato/>
+        <Contato/>
         <Footer/>
       </AuthProvider>
     </div>

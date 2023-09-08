@@ -1,9 +1,10 @@
+
 import { Container, Linha, Coluna, EmailContainer, EmailLink, CopyButton, Voltar, Vamosconv} from "./styles";
 import { FaWhatsapp, FaCopy, FaCheck } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import {HiOutlineArrowUp} from "react-icons/hi";
 
-export default function Conato(){
+export default function Contato(){
 
     const [copiado, setCopiado] = useState(false)
 
